@@ -1,2 +1,1 @@
-# flair-config
-Configuration for running flair services
+# Centralized Configuration Repository
