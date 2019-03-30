@@ -138,7 +138,7 @@ logging:
 couchdb:
   password: password
   username: admin
-  url: http://localhost:5984
+  url: http://flair-couchdb:5984
   test-connection-at-startup: false
   database-name: flairbi-view
   ssl-factory: com.flair.bi.ssl.FlairBIPgSqlSSLSocketFactory
