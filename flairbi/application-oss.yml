@@ -22,7 +22,7 @@ spring:
     serialization.indent_output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://flair-pgsql:5432/flairengine?ssl=false
+    url: jdbc:postgresql://flair-pgsql:5432/flairbi?ssl=false
     username: postgres
     password: admin
   jpa:
