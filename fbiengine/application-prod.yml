@@ -157,3 +157,6 @@ application:
         credentials:
         - username: "admin"
           password: "admin"
+
+flair-cache:
+  enabled: true

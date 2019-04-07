@@ -152,3 +152,6 @@ application:
           roles:
           - "ROLE_ADMIN"
           - "ROLE_USER"
+
+flair-cache:
+  enabled: true

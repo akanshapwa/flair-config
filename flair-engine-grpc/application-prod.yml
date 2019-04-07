@@ -49,6 +49,9 @@ spring:
 liquibase:
   contexts: prod
 
+flair-cache:
+  enabled: true
+
 # ===================================================================
 # To enable SSL, generate a certificate using:
 # keytool -genkey -alias fbiengine -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 3650

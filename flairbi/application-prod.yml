@@ -42,9 +42,6 @@ spring:
 liquibase:
   contexts: prod
 
-flair-cache:
-  enabled: true
-
 server:
   port: 80
   compression:
