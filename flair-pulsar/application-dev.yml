@@ -11,11 +11,11 @@ eureka:
     status-page-url-path: /info
     nonSecurePort: ${server.port}
     securePort: ${server.port}
-    securePortEnabled: true
+    securePortEnabled: false
   client:
     enabled: true
     healthcheck.enabled: true
-    securePortEnabled: true
+    securePortEnabled: false
 
 management:
   endpoint.prometheus.enabled: true
