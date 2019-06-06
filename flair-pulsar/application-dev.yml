@@ -2,20 +2,20 @@ spring:
   active:
     profiles: dev
     
+server:
+  port: 8080
+    
 eureka:
   instance:
     health-check-url-path: /health
     status-page-url-path: /info
-    nonSecurePort: ${grpc.port}
-    securePort: ${grpc.port}
+    nonSecurePort: ${server.port}
+    securePort: ${server.port}
     securePortEnabled: true
   client:
     enabled: true
     healthcheck.enabled: true
     securePortEnabled: true
-
-server:
-  port: 8080
 
 management:
   endpoint.prometheus.enabled: true
