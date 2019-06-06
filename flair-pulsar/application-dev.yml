@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: flair-pulsar
+
+kafka:
+  bootstrap-servers: localhost:9092
