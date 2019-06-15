@@ -35,7 +35,7 @@ spring:
       hibernate.generate_statistics: true
 
   mail:
-    host: localhost
+    host: fakesmtp
     port: 25
     username:
     password:
@@ -83,7 +83,7 @@ jhipster:
       key: 81703cb4a1c3099ecc374a94c5c4efe0717e078b
   mail: # specific JHipster mail property, for standard properties see MailProperties
     from: flairbi@localhost
-    baseUrl: http://127.0.0.1:80
+    baseUrl: http://localhost:8002
   metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
     jmx.enabled: true
     graphite:
