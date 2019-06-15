@@ -35,10 +35,10 @@ spring:
       hibernate.generate_statistics: true
 
   mail:
-    host: localhost
+    host: smtp.sendgrid.net
     port: 25
-    username:
-    password:
+    username: apikey
+    password: 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
   messages:
     cache-seconds: 1
   thymeleaf:
